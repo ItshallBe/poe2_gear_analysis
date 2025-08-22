@@ -8,7 +8,7 @@
 
 This project is the core analysis engine behind **[Poe2 Compass](https://poe2fun.com)**, a comprehensive toolkit for Path of Exile 2 traders and crafters.
 
-* **Live Demo:** See the analysis in action at **[poe2fun.com/analysis](https://poe2fun.com/analysis)**
+* **Live Application:** See the analysis in action at **[poe2fun.com/analysis](https://poe2fun.com/analysis)**
 * **Main Website:** Discover all our tools at **[poe2fun.com](https://poe2fun.com)**
 
 ## ✨ Visual Showcase: What it Does
