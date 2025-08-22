@@ -1,0 +1,299 @@
+{
+    "explicit.stat_2144192055": {
+        "name": "",
+        "domain": [],
+        "desc": "闪避",
+        "type": "others"
+    },
+   "explicit.stat_1050105434": {
+        "name": "",
+        "domain": [],
+        "desc": "魔力",
+        "type": "mana"
+   },
+   "explicit.stat_2891184298": {
+        "name": "",
+        "domain": [],
+        "desc": "施法速度",
+        "type": "fcr"
+   },
+   "explicit.stat_2901986750": {
+        "name": "",
+        "domain": [],
+        "desc": "全抗",
+        "type": "resistance"
+   },
+   "explicit.stat_4220027924": {
+        "name": "",
+        "domain": [],
+        "desc": "冰抗",
+        "type": "resistance"
+   },
+   "explicit.stat_2231156303": {
+        "name": "",
+        "domain": [],
+        "desc": "inc电",
+        "type": "inc"
+   },
+   "explicit.stat_3917489142": {
+        "name": "",
+        "domain": [],
+        "desc": "稀有度",
+        "type": "rare"
+   },
+   "explicit.stat_328541901": {
+        "name": "",
+        "domain": [],
+        "desc": "智慧",
+        "type": "attr"
+   },
+   "explicit.stat_1671376347": {
+        "name": "",
+        "domain": [],
+        "desc": "电抗",
+        "type": "resistance"
+   },
+   "explicit.stat_3032590688": {
+        "name": "",
+        "domain": [],
+        "desc": "物点",
+        "type": "attacks"
+   },
+   "explicit.stat_4080418644": {
+        "name": "",
+        "domain": [],
+        "desc": "力量",
+        "type": "attr"
+   },
+   "explicit.stat_3261801346": {
+        "name": "",
+        "domain": [],
+        "desc": "敏捷",
+        "type": "attr"
+   },
+   "explicit.stat_3372524247": {
+        "name": "",
+        "domain": [],
+        "desc": "火抗",
+        "type": "resistance"
+   },
+   "explicit.stat_3299347043": {
+        "name": "",
+        "domain": [],
+        "desc": "生命",
+        "type": "life"
+   },
+   "explicit.stat_1368271171": {
+        "name": "",
+        "domain": [],
+        "desc": "杀回蓝",
+        "type": "others"
+   },
+   "explicit.stat_803737631": {
+        "name": "",
+        "domain": [],
+        "desc": "命中",
+        "type": "others"
+   },
+   "explicit.stat_4067062424": {
+        "name": "",
+        "domain": [],
+        "desc": "冰点",
+        "type": "attacks"
+   },
+   "explicit.stat_3962278098": {
+        "name": "",
+        "domain": [],
+        "desc": "inc火",
+        "type": "inc"
+   },
+   "explicit.stat_789117908": {
+        "name": "",
+        "domain": [],
+        "desc": "魔回",
+        "type": "mana"
+   },
+   "explicit.stat_736967255": {
+        "name": "",
+        "domain": [],
+        "desc": "inc混",
+        "type": "inc"
+   },
+   "explicit.stat_1379411836": {
+        "name": "",
+        "domain": [],
+        "desc": "全属",
+        "type": "attr"
+   },
+   "explicit.stat_1573130764": {
+        "name": "",
+        "domain": [],
+        "desc": "火点",
+        "type": "attacks"
+   },
+   "explicit.stat_2923486259": {
+        "name": "",
+        "domain": [],
+        "desc": "混抗",
+        "type": "resistance"
+   },
+   "explicit.stat_707457662": {
+        "name": "",
+        "domain": [],
+        "desc": "击回",
+        "type": "others"
+   },
+   "explicit.stat_3291658075": {
+        "name": "",
+        "domain": [],
+        "desc": "inc冰",
+        "type": "inc"
+   },
+   "explicit.stat_3325883026": {
+        "name": "",
+        "domain": [],
+        "desc": "秒回",
+        "type": "others"
+   },
+   "explicit.stat_1754445556": {
+        "name": "",
+        "domain": [],
+        "desc": "电点",
+        "type": "attacks"
+   },
+   "explicit.stat_3695891184": {
+        "name": "",
+        "domain": [],
+        "desc": "杀回",
+        "type": "others"
+   },
+  "explicit.stat_2557965901": {
+        "name": "",
+        "domain": [],
+        "desc": "击回命",
+        "type": "others"
+  },
+  "attr": {
+    "tiers": [30, 60, 90],
+    "desc": "属性",
+    "explicit.stat_328541901": {
+      "weight": 1,
+      "desc": "智慧"
+    },
+    "explicit.stat_4080418644": {
+      "weight": 1,
+      "desc": "力量"
+    },
+    "explicit.stat_1379411836": {
+      "weight": 3,
+      "desc": "全属"
+    },
+    "explicit.stat_3261801346": {
+      "weight": 1,
+      "desc": "敏捷"
+    }
+  },
+  "inc": {
+    "tiers": [30, 60, 90],
+    "desc": "inc",
+    "explicit.stat_3962278098": {
+      "weight": 1,
+      "desc": "火"
+    },
+    "explicit.stat_2231156303": {
+      "weight": 1,
+      "desc": "电"
+    },
+    "explicit.stat_3291658075": {
+      "weight": 1,
+      "desc": "冰"
+    },
+    "explicit.stat_736967255": {
+      "weight": 1,
+      "desc": "混"
+    }
+  },
+  "life": {
+    "tiers": [100, 130, 160],
+    "desc": "生命",
+    "explicit.stat_3299347043": {
+      "weight": 1
+    }
+  },
+  "mana": {
+    "tiers": [180, 220, 260],
+    "desc": "魔力",
+    "explicit.stat_1050105434": {
+      "weight": 1,
+      "desc": "魔力"
+    },
+    "explicit.stat_789117908": {
+      "weight": 2,
+      "desc": "魔回"
+    }
+  },
+  "resistance": {
+    "tiers": [40, 80, 120],
+    "desc": "抗性",
+    "explicit.stat_3372524247": {
+      "weight": 1,
+      "desc": "火抗"
+    },
+    "explicit.stat_1671376347": {
+      "weight": 1,
+      "desc": "电抗"
+    },
+    "explicit.stat_4220027924": {
+      "weight": 1,
+      "desc": "冰抗"
+    },
+    "explicit.stat_2923486259": {
+      "weight": 2,
+      "desc": "混抗"
+    },
+    "explicit.stat_2901986750": {
+      "weight": 3,
+      "desc": "全抗"
+    }
+  },
+  "attacks": {
+    "tiers": [25, 50, 75],
+    "desc": "点伤",
+    "explicit.stat_1573130764": {
+      "weight": 1,
+      "desc": "火点"
+    },
+    "explicit.stat_1754445556": {
+      "weight": 1,
+      "desc": "电点"
+    },
+    "explicit.stat_4067062424": {
+      "weight": 1,
+      "desc": "冰点"
+    },
+    "explicit.stat_3032590688": {
+      "weight": 1,
+      "desc": "物点"
+    }
+  },
+  "rare": {
+    "tiers": [20, 25],
+    "desc": "稀有",
+    "explicit.stat_3917489142": {
+      "weight": 1,
+      "desc": "稀有度"
+    }
+  },
+  "fcr": {
+    "tiers": [18, 22],
+    "desc": "施法",
+    "explicit.stat_2891184298": {
+      "weight": 1,
+      "desc": "施法速度"
+    }
+  },
+  "others": {
+    "desc": "废词",
+    "count": 0
+  }
+}

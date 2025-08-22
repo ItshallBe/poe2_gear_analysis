@@ -1,0 +1,222 @@
+{
+  "explicit.stat_1509134228": {
+    "name": "",
+    "domain": [],
+    "desc": "%物理伤害",
+    "type": "attacks"
+  },
+  "explicit.stat_210067635": {
+    "name": "",
+    "domain": [],
+    "desc": "%攻速",
+    "type": "attacks"
+  },
+  "explicit.stat_791928121": {
+    "name": "",
+    "domain": [],
+    "desc": "晕眩累积",
+    "type": "others"
+  },
+  "explicit.stat_748522257": {
+    "name": "",
+    "domain": [],
+    "desc": "晕眩持续",
+    "type": "others"
+  },
+  "explicit.stat_3695891184": {
+    "name": "",
+    "domain": [],
+    "desc": "杀回",
+    "type": "others"
+  },
+  "explicit.stat_3639275092": {
+    "name": "",
+    "domain": [],
+    "desc": "能力值需求",
+    "type": "others"
+  },
+  "explicit.stat_709508406": {
+    "name": "",
+    "domain": [],
+    "desc": "火焰点伤",
+    "type": "attacks"
+  },
+  "explicit.stat_518292764": {
+    "name": "",
+    "domain": [],
+    "desc": "暴击率",
+    "type": "critical"
+  },
+  "explicit.stat_3336890334": {
+    "name": "",
+    "domain": [],
+    "desc": "闪电点伤",
+    "type": "attacks"
+  },
+  "explicit.stat_387439868": {
+    "name": "",
+    "domain": [],
+    "desc": "元素伤害",
+    "type": "elemental"
+  },
+  "explicit.stat_1037193709": {
+    "name": "",
+    "domain": [],
+    "desc": "冰点伤",
+    "type": "attacks"
+  },
+  "explicit.stat_3261801346": {
+    "name": "",
+    "domain": [],
+    "desc": "敏捷",
+    "type": "others"
+  },
+  "explicit.stat_691932474": {
+    "name": "",
+    "domain": [],
+    "desc": "命中",
+    "type": "accuracy"
+  },
+  "explicit.stat_1940865751": {
+    "name": "",
+    "domain": [],
+    "desc": "物点",
+    "type": "attacks"
+  },
+  "explicit.stat_821021828": {
+    "name": "",
+    "domain": [],
+    "desc": "击回",
+    "type": "others"
+  },
+  "explicit.stat_55876295": {
+    "name": "",
+    "domain": [],
+    "desc": "物理偷取",
+    "type": "others"
+  },
+  "explicit.stat_2694482655": {
+    "name": "",
+    "domain": [],
+    "desc": "暴伤",
+    "type": "critical"
+  },
+  "explicit.stat_9187492": {
+    "name": "",
+    "domain": [],
+    "desc": "近战等级",
+    "type": "meleeLevel"
+  },
+  "explicit.stat_1368271171": {
+    "name": "",
+    "domain": [],
+    "desc": "击杀回蓝",
+    "type": "mana"
+  },
+  "explicit.stat_1202301673": {
+    "name": "",
+    "domain": [],
+    "desc": "投射物等级",
+    "type": "projectileLevel"
+  },
+  "explicit.stat_4080418644": {
+    "name": "",
+    "domain": [],
+    "desc": "力量",
+    "type": "others"
+  },
+  "explicit.stat_669069897": {
+    "name": "",
+    "domain": [],
+    "desc": "物理偷蓝",
+    "type": "others"
+  },
+  "attacks": {
+    "tiers": [200, 300, 400],
+    "desc": "dps",
+    "explicit.stat_1509134228": {
+      "weight": 0,
+      "desc": "%物伤"
+    },
+    "explicit.stat_210067635": {
+      "weight": 0,
+      "desc": "攻速"
+    },
+    "explicit.stat_709508406": {
+      "weight": 0,
+      "desc": "火点"
+    },
+    "explicit.stat_3336890334": {
+      "weight": 0,
+      "desc": "电点"
+    },
+    "explicit.stat_1940865751": {
+      "weight": 0,
+      "desc": "物点"
+    },
+    "explicit.stat_1037193709": {
+      "weight": 0,
+      "desc": "冰点"
+    },
+    "dps": {
+      "desc": "伤害",
+      "weight": 1
+    }
+  },
+  "critical": {
+    "tiers": [30, 60],
+    "desc": "暴击",
+    "explicit.stat_518292764": {
+      "weight": 8,
+      "desc": "暴击率"
+    },
+    "explicit.stat_2694482655": {
+      "weight": 1,
+      "desc": "暴伤"
+    }
+  },
+  "elemental": {
+    "tiers": [40, 80],
+    "desc": "元素",
+    "explicit.stat_387439868": {
+      "weight": 1,
+      "desc": "元素伤"
+    }
+  },
+  "mana": {
+    "desc": "击杀回蓝",
+    "tiers": [10, 20],
+    "explicit.stat_1368271171": {
+      "weight": 1,
+      "desc": "杀回蓝"
+    }
+  },
+  "accuracy": {
+    "desc": "命中",
+    "tiers": [250, 400],
+    "explicit.stat_691932474": {
+      "weight": 1,
+      "desc": "命中"
+    }
+  },
+  "projectileLevel": {
+    "desc": "投射等级",
+    "tiers": [3, 4],
+    "explicit.stat_1202301673": {
+      "weight": 1,
+      "desc": "投射物技能等级"
+    }
+  },
+  "meleeLevel": {
+    "desc": "近战等级",
+    "tiers": [3, 4],
+    "explicit.stat_9187492": {
+      "weight": 1,
+      "desc": "近战等级"
+    }
+  },
+  "others": {
+    "desc": "废词",
+    "count": 0
+  }
+}

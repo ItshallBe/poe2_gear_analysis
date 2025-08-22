@@ -1,0 +1,416 @@
+{
+    "explicit.stat_1782086450": {
+        "name": "比平常快 (10-20)% 開始充能能量護盾",
+        "weight": "650",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "盾回"
+    },
+    "explicit.stat_280731498": {
+        "name": "增加 (5-10)% 範圍效果",
+        "weight": "250",
+        "affixType": "prefix",
+        "domain": [5, 10],
+        "desc": "范围"
+    },
+    "explicit.stat_153777645": {
+        "name": "詛咒效果範圍增加 (15-25)%",
+        "weight": "350",
+        "affixType": "prefix",
+        "domain": [15, 25],
+        "desc": "诅咒范围"
+    },
+    "explicit.stat_736967255": {
+        "name": "增加 (6-12)% 混沌傷害",
+        "weight": "650",
+        "affixType": "prefix",
+        "domain": [6, 12],
+        "desc": "混沌伤"
+    },
+    "explicit.stat_3291658075": {
+        "name": "增加 (5-15)% 冰冷傷害",
+        "weight": "1000",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "冰冷伤"
+    },
+    "explicit.stat_2118708619": {
+        "name": "若你近期有消耗屍體，增加 (10-20)% 傷害",
+        "weight": "150",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "屍體消耗"
+    },
+    "explicit.stat_315791320": {
+        "name": "你的技能增加 (5-10)% 光環效果",
+        "weight": "150",
+        "affixType": "prefix",
+        "domain": [5, 10],
+        "desc": "光环效果"
+    },
+    "explicit.stat_2545584555": {
+        "name": "增加 (5-15)% 凋零效果",
+        "weight": "100",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "凋零效果"
+    },
+    "explicit.stat_2353576063": {
+        "name": "增加 (3-5)% 你所施放詛咒的效果",
+        "weight": "100",
+        "affixType": "prefix",
+        "domain": [3, 5],
+        "desc": "诅咒效果"
+    },
+    "explicit.stat_3141070085": {
+        "name": "增加 (5-15)% 元素傷害",
+        "weight": "450",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "元素伤"
+    },
+    "explicit.stat_3174700878": {
+        "name": "來自已裝備法器的能量護盾增加 (30-50)%",
+        "weight": "450",
+        "affixType": "prefix",
+        "domain": [30, 50],
+        "desc": "法器护盾"
+    },
+    "explicit.stat_2339757871": {
+        "name": "增加 (10-20)% 能量護盾充能率",
+        "weight": "700",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "盾充"
+    },
+    "explicit.stat_1303248024": {
+        "name": "你所施加之異常狀態的幅度增加 (5-15)%",
+        "weight": "200",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "异常幅度"
+    },
+    "explicit.stat_440490623": {
+        "name": "你以暴擊施加之傷害型異常狀態的幅度增加 (10-20)%",
+        "weight": "200",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "暴击异常"
+    },
+    "explicit.stat_3791899485": {
+        "name": "你所施加之點燃的幅度增加 (5-15)%",
+        "weight": "300",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "点燃幅度"
+    },
+    "explicit.stat_2527686725": {
+        "name": "你所施加之感電的幅度增加 (10-20)%",
+        "weight": "200",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "感电幅度"
+    },
+    "explicit.stat_2482852589": {
+        "name": "增加 (10-20)% 最大能量護盾",
+        "weight": "750",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "最大盾"
+    },
+    "explicit.stat_1718147982": {
+        "name": "增加 (10-20)% 召喚物命中值",
+        "weight": "400",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "召唤命中"
+    },
+    "explicit.stat_2974417149": {
+        "name": "增加 (5-15)% 法術傷害",
+        "weight": "1000",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "法伤"
+    },
+    "explicit.stat_3417711605": {
+        "name": "傷害穿透 (5-10)% 冰冷抗性",
+        "weight": "800",
+        "affixType": "prefix",
+        "domain": [5, 10],
+        "desc": "冰穿"
+    },
+    "explicit.stat_1589917703": {
+        "name": "召喚物增加 (5-15)% 傷害",
+        "weight": "850",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "召唤伤"
+    },
+    "explicit.stat_3787460122": {
+        "name": "獻祭增加 (15-25)% 最大生命",
+        "weight": "350",
+        "affixType": "prefix",
+        "domain": [15, 25],
+        "desc": "献祭生命"
+    },
+    "explicit.stat_3067892458": {
+        "name": "被觸發的法術增加 (10-18)% 法術傷害",
+        "weight": "500",
+        "affixType": "prefix",
+        "domain": [10, 18],
+        "desc": "触发增伤"
+    },
+
+    "explicit.stat_1104825894": {
+        "name": "詛咒啟動速度加快 (5-15)%",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "诅咒启动"
+    },
+    "explicit.stat_2891184298": {
+        "name": "增加 (2-4)% 施放速度",
+        "weight": "800",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "施法速度"
+    },
+    "explicit.stat_2968503605": {
+        "name": "增加 (10-20)% 點燃機率",
+        "weight": "1000",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "点燃几率"
+    },
+    "explicit.stat_1772247089": {
+        "name": "造成異常狀態的機率增加 (5-15)%",
+        "weight": "150",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "异常几率"
+    },
+    "explicit.stat_293638271": {
+        "name": "增加 (10-20)% 感電機率",
+        "weight": "250",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "感电几率"
+    },
+    "explicit.stat_3485067555": {
+        "name": "增加 (15-25)% 敵人冰緩持續時間",
+        "weight": "350",
+        "affixType": "suffix",
+        "domain": [15, 25],
+        "desc": "冰缓时间"
+    },
+    "explicit.stat_3556824919": {
+        "name": "暴擊傷害加成增加 (10-20)%",
+        "weight": "600",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "暴伤"
+    },
+    "explicit.stat_587431675": {
+        "name": "增加 (5-15)% 全域暴擊率",
+        "weight": "550",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "暴击"
+    },
+    "explicit.stat_737908626": {
+        "name": "增加 (5-15)% 法術暴擊率",
+        "weight": "600",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "法术暴击"
+    },
+    "explicit.stat_274716455": {
+        "name": "暴擊法術傷害加成增加 (10-20)%",
+        "weight": "400",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "法术爆伤"
+    },
+    "explicit.stat_3824372849": {
+        "name": "增加 (15-25)% 詛咒的持續時間",
+        "weight": "350",
+        "affixType": "suffix",
+        "domain": [15, 25],
+        "desc": "诅咒持续"
+    },
+    "explicit.stat_1829102168": {
+        "name": "敵人身上的傷害型異常狀態持續時間增加 (5-15)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "异常持续"
+    },
+    "explicit.stat_473429811": {
+        "name": "增加 (10-20)% 冰凍累積",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "冰冻累计"
+    },
+    "explicit.stat_1697447343": {
+        "name": "細杖的冰凍累積增加 (10-20)%",
+        "weight": "150",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "细杖冰积"
+    },
+    "explicit.stat_3780644166": {
+        "name": "冰凍門檻增加 (18-32)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [18, 32],
+        "desc": "冰冻门槛"
+    },
+    "explicit.stat_789117908": {
+        "name": "增加 (5-15)% 魔力回復率",
+        "weight": "650",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "魔回"
+    },
+    "explicit.stat_3668351662": {
+        "name": "感電持續時間增加 (15-25)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [15, 25],
+        "desc": "感电持续"
+    },
+    "explicit.stat_3377888098": {
+        "name": "增加 (5-15)% 技能效果持續時間",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "技能持续"
+    },
+    "explicit.stat_458438597": {
+        "name": "生命值所受的 (2-4)% 傷害由魔力扣除",
+        "weight": "50",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "魔力承伤"
+    },
+    "explicit.stat_1444556985": {
+        "name": "承受 (2-4)% 傷害補償為生命",
+        "weight": "550",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "生命补偿"
+    },
+    "explicit.stat_3676141501": {
+        "name": "+(1-2)% 最大冰冷抗性",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [1, 2],
+        "desc": "最大冰抗"
+    },
+    "explicit.stat_538241406": {
+        "name": "傷害型異常狀態造成傷害加速 (3-7)%",
+        "weight": "50",
+        "affixType": "suffix",
+        "domain": [3, 7],
+        "desc": "异常加速"
+    },
+    "explicit.stat_1238227257": {
+        "name": "加速減益效果失效 (5-15)%",
+        "weight": "200",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "减益失效"
+    },
+    "explicit.stat_416040624": {
+        "name": "獲得相當於 (5-10)% 最大能量護盾的額外暈眩門檻",
+        "weight": "600",
+        "affixType": "suffix",
+        "domain": [5, 10],
+        "desc": "晕眩门槛"
+    },
+    "explicit.stat_4236566306": {
+        "name": "主要技能獲得能量增加 (5-15)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "能量获得"
+    },
+    "explicit.stat_3091578504": {
+        "name": "召喚物增加 (2-4)% 攻擊和施放速度",
+        "weight": "500",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "召唤攻速"
+    },
+    "explicit.stat_1854213750": {
+        "name": "召喚物增加 (15-25)% 暴擊傷害加成",
+        "weight": "400",
+        "affixType": "suffix",
+        "domain": [15, 25],
+        "desc": "召唤暴伤"
+    },
+    "explicit.stat_491450213": {
+        "name": "召喚物的暴擊機率增加 (10-20)%",
+        "weight": "350",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "召唤暴击"
+    },
+    "explicit.stat_1423639565": {
+        "name": "召喚物有 +(5-10)% 全部元素抗性",
+        "weight": "600",
+        "affixType": "suffix",
+        "domain": [5, 10],
+        "desc": "召唤全抗"
+    },
+    "explicit.stat_3837707023": {
+        "name": "召喚物有 +(7-13)% 混沌抗性",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [7, 13],
+        "desc": "召唤混抗"
+    },
+    "explicit.stat_2957407601": {
+        "name": "奉獻技能增加 (15-25)% 持續時間",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [15, 25],
+        "desc": "奉献持续"
+    },
+    "explicit.stat_2023107756": {
+        "name": "擊殺時恢復 (1-2)% 生命",
+        "weight": "550",
+        "affixType": "suffix",
+        "domain": [1, 2],
+        "desc": "击杀回命"
+    },
+    "explicit.stat_1604736568": {
+        "name": "擊殺時恢復 (1-2)% 魔力",
+        "weight": "200",
+        "affixType": "suffix",
+        "domain": [1, 2],
+        "desc": "击杀回蓝"
+    },
+    "explicit.stat_101878827": {
+        "name": "存在范围效果增加",
+        "weight": "",
+        "affixType": "suffix",
+        "domain": [],
+        "desc": "存在范围"
+    },
+    "explicit.stat_3398301358": {
+        "name": "友方获得最大护盾晕眩阈值",
+        "weight": "",
+        "affixType": "",
+        "domain": [],
+        "desc": "友方晕眩门槛"
+    },
+    "explicit.stat_3749502527": {
+        "name": "击杀得易爆",
+        "weight": "",
+        "affixType": "",
+        "domain": [],
+        "desc": "击杀得易爆"
+    }
+}

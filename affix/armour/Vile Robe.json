@@ -1,0 +1,414 @@
+{
+  "explicit.stat_4052037485": {
+    "name": "",
+    "domain": [],
+    "desc": "最大盾",
+    "type": "defense"
+  },
+  "explicit.stat_3325883026": {
+    "name": "",
+    "domain": [],
+    "desc": "秒回",
+    "type": "others"
+  },
+  "explicit.stat_3299347043": {
+    "name": "",
+    "domain": [],
+    "desc": "最大生命",
+    "type": "others"
+  },
+  "explicit.stat_915769802": {
+    "name": "",
+    "domain": [],
+    "desc": "晕门槛",
+    "type": "others"
+  },
+  "explicit.stat_4220027924": {
+    "name": "",
+    "domain": [],
+    "desc": "冰抗",
+    "type": "resistance"
+  },
+  "explicit.stat_3372524247": {
+    "name": "",
+    "domain": [],
+    "desc": "火抗",
+    "type": "resistance"
+  },
+  "explicit.stat_328541901": {
+    "name": "",
+    "domain": [],
+    "desc": "智慧",
+    "type": "attrs"
+  },
+  "explicit.stat_3981240776": {
+    "name": "",
+    "domain": [],
+    "desc": "精魂",
+    "type": "spirit"
+  },
+  "explicit.stat_4015621042": {
+    "name": "",
+    "domain": [],
+    "desc": "%盾",
+    "type": "defense"
+  },
+  "explicit.stat_1671376347": {
+    "name": "",
+    "domain": [],
+    "desc": "电抗",
+    "type": "resistance"
+  },
+  "explicit.stat_986397080": {
+    "name": "",
+    "domain": [],
+    "desc": "减少点燃",
+    "type": "others"
+  },
+  "explicit.stat_3301100256": {
+    "name": "",
+    "domain": [],
+    "desc": "增加中毒",
+    "type": "others"
+  },
+  "explicit.stat_2954116742|40803": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|63659": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|42981": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|17372": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|23427": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|25711": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|32655": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|5703": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|30341": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|27626": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|2511": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|27290": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|51602": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|26107": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|42914": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|40480": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|44917": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|62230": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|20008": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|32543": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|35324": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|32301": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|9736": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|10602": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|10265": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|38479": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|34316": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|50389": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|17340": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|65160": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|53527": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|29372": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|4238": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|56999": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|116": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|20677" : {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|31189": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|3188": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|38614": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|60034": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|47418": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|58016": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|41811": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|65193": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|33216": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|19715": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|8904": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|37872": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|7651": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|41972": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|52199": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|42714": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|29514": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|49984": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|43090": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|35809": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|48658": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|8531": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|27687": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|17600": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|17229": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|39083": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|32664": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|13738": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2954116742|36364": {
+    "type": "others",
+    "desc": "err"
+  },
+  "explicit.stat_2881298780": {
+    "name": "",
+    "domain": [],
+    "desc": "荆棘",
+    "type": "others"
+  },
+  "explicit.stat_1692879867": {
+    "name": "",
+    "domain": [],
+    "desc": "流血",
+    "type": "others"
+  },
+  "explicit.stat_3639275092": {
+    "name": "",
+    "domain": [],
+    "desc": "能力值需求",
+    "type": "others"
+  },
+  "explicit.stat_2923486259": {
+    "name": "",
+    "domain": [],
+    "desc": "混抗",
+    "type": "resistance"
+  },
+  "defense": {
+    "tiers": [500, 650, 800],
+    "desc": "盾",
+    "explicit.stat_4052037485": {
+      "weight": 0,
+      "desc": "最大盾"
+    },
+    "explicit.stat_4015621042": {
+      "weight": 0,
+      "desc": "%盾"
+    },
+    "es": {
+      "desc": "盾",
+      "weight": 1
+    }
+  },
+  "resistance": {
+    "tiers": [40, 80, 120],
+    "desc": "抗性",
+    "explicit.stat_4220027924": {
+      "weight": 1,
+      "desc": "冰抗"
+    },
+    "explicit.stat_3372524247": {
+      "weight": 1,
+      "desc": "火抗"
+    },
+    "explicit.stat_1671376347": {
+      "weight": 1,
+      "desc": "电抗"
+    },
+    "explicit.stat_2923486259": {
+      "weight": 2,
+      "desc": "混抗"
+    }
+  },
+  "attrs": {
+    "tiers": [25, 30],
+    "desc": "智慧",
+    "explicit.stat_328541901": {
+      "weight": 1,
+      "desc": "智慧"
+    }
+  },
+  "spirit": {
+    "tiers": [40, 50, 60],
+    "desc": "精魂",
+    "explicit.stat_3981240776": {
+      "weight": 1,
+      "desc": "精魂"
+    }
+  },
+  "others": {
+    "desc": "废词",
+    "count": 0
+  }
+}

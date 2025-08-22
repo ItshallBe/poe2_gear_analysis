@@ -1,0 +1,162 @@
+{
+  "explicit.stat_3325883026": {
+    "name": "",
+    "domain": [],
+    "desc": "秒回",
+    "type": "others"
+  },
+  "explicit.stat_124859000": {
+    "name": "",
+    "domain": [],
+    "desc": "%闪避",
+    "type": "defense"
+  },
+  "explicit.stat_3261801346": {
+    "name": "",
+    "domain": [],
+    "desc": "敏捷",
+    "type": "attrs"
+  },
+  "explicit.stat_1671376347": {
+    "name": "",
+    "domain": [],
+    "desc": "电抗",
+    "type": "resistance"
+  },
+  "explicit.stat_3299347043": {
+    "name": "",
+    "domain": [],
+    "desc": "生命",
+    "type": "life"
+  },
+  "explicit.stat_53045048": {
+    "name": "",
+    "domain": [],
+    "desc": "闪避值",
+    "type": "defense"
+  },
+  "explicit.stat_2881298780": {
+    "name": "",
+    "domain": [],
+    "desc": "荆棘伤",
+    "type": "others"
+  },
+  "explicit.stat_3372524247": {
+    "name": "",
+    "domain": [],
+    "desc": "火抗",
+    "type": "resistance"
+  },
+  "explicit.stat_915769802": {
+    "name": "",
+    "domain": [],
+    "desc": "晕眩门槛",
+    "type": "others"
+  },
+  "explicit.stat_3981240776": {
+    "name": "",
+    "domain": [],
+    "desc": "精魂",
+    "type": "spirit"
+  },
+  "explicit.stat_3639275092": {
+    "name": "",
+    "domain": [],
+    "desc": "能力值需求",
+    "type": "others"
+  },
+  "explicit.stat_3301100256": {
+    "name": "",
+    "domain": [],
+    "desc": "中毒持续",
+    "type": "others"
+  },
+  "explicit.stat_4220027924": {
+    "name": "",
+    "domain": [],
+    "desc": "冰抗",
+    "type": "resistance"
+  },
+  "explicit.stat_1692879867": {
+    "name": "",
+    "domain": [],
+    "desc": "流血持续",
+    "type": "others"
+  },
+  "explicit.stat_986397080": {
+    "name": "",
+    "domain": [],
+    "desc": "点燃持续",
+    "type": "others"
+  },
+  "explicit.stat_2923486259": {
+    "name": "",
+    "domain": [],
+    "desc": "混抗",
+    "type": "resistance"
+  },
+  "defense": {
+    "tiers": [1500, 1800, 2100],
+    "desc": "闪避",
+    "explicit.stat_124859000": {
+      "desc": "%闪避",
+      "weight": 0
+    },
+    "explicit.stat_53045048": {
+      "desc": "闪避值",
+      "weight": 0
+    },
+    "ev": {
+      "desc": "闪避",
+      "weight": 1
+    }
+  },
+  "life": {
+    "tiers": [100],
+    "desc": "生命",
+    "explicit.stat_3299347043": {
+      "weight": 1,
+      "desc": "生命"
+    }
+  },
+  "resistance": {
+    "desc": "抗性",
+    "tiers": [40, 80, 120],
+    "explicit.stat_1671376347": {
+      "weight": 1,
+      "desc": "电抗"
+    },
+    "explicit.stat_3372524247": {
+      "weight": 1,
+      "desc": "火抗"
+    },
+    "explicit.stat_2923486259": {
+      "weight": 2,
+      "desc": "混抗"
+    },
+    "explicit.stat_4220027924": {
+      "weight": 1,
+      "desc": "冰抗"
+    }
+  },
+  "spirit": {
+    "tiers": [40, 50, 60],
+    "desc": "精魂",
+    "explicit.stat_3981240776": {
+      "weight": 1,
+      "desc": "精魂"
+    }
+  },
+  "attrs": {
+    "tiers": [25, 30],
+    "desc": "敏捷",
+    "explicit.stat_3261801346": {
+      "weight": 1,
+      "desc": "敏捷"
+    }
+  },
+  "others": {
+    "desc": "废词",
+    "count": 0
+  }
+}

@@ -1,0 +1,8 @@
+numpy
+pandas
+requests
+networkx
+mlxtend
+matplotlib
+plotly
+seaborn

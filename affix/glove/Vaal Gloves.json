@@ -1,0 +1,276 @@
+{
+  "explicit.stat_1671376347": {
+    "name": "",
+    "domain": [],
+    "desc": "电抗",
+    "type": "resistance"
+  },
+  "explicit.stat_3261801346": {
+    "name": "",
+    "domain": [],
+    "desc": "敏捷",
+    "type": "others"
+  },
+  "explicit.stat_4015621042": {
+    "name": "",
+    "domain": [],
+    "desc": "%盾",
+    "type": "defense"
+  },
+  "explicit.stat_3299347043": {
+    "name": "",
+    "domain": [],
+    "desc": "生命",
+    "type": "life"
+  },
+  "explicit.stat_1754445556": {
+    "name": "",
+    "domain": [],
+    "desc": "电点",
+    "type": "attacks"
+  },
+  "explicit.stat_3639275092": {
+    "name": "",
+    "domain": [],
+    "desc": "能力值需求",
+    "type": "others"
+  },
+  "explicit.stat_3032590688": {
+    "name": "",
+    "domain": [],
+    "desc": "物点",
+    "type": "attacks"
+  },
+  "explicit.stat_4052037485": {
+    "name": "",
+    "domain": [],
+    "desc": "最大盾",
+    "type": "defense"
+  },
+  "explicit.stat_3372524247": {
+    "name": "",
+    "domain": [],
+    "desc": "火抗",
+    "type": "resistance"
+  },
+  "explicit.stat_328541901": {
+    "name": "",
+    "domain": [],
+    "desc": "智慧",
+    "type": "attrs"
+  },
+  "explicit.stat_1050105434": {
+    "name": "",
+    "domain": [],
+    "desc": "魔力",
+    "type": "mana"
+  },
+  "explicit.stat_3556824919": {
+    "name": "",
+    "domain": [],
+    "desc": "暴伤",
+    "type": "crit"
+  },
+  "explicit.stat_803737631": {
+    "name": "",
+    "domain": [],
+    "desc": "命中",
+    "type": "accuracy"
+  },
+  "explicit.stat_3917489142": {
+    "name": "",
+    "domain": [],
+    "desc": "稀有度",
+    "type": "rare"
+  },
+  "explicit.stat_4220027924": {
+    "name": "",
+    "domain": [],
+    "desc": "冰抗",
+    "type": "resistance"
+  },
+  "explicit.stat_2557965901": {
+    "name": "",
+    "domain": [],
+    "desc": "物伤偷生命",
+    "type": "others"
+  },
+  "explicit.stat_9187492": {
+    "name": "",
+    "domain": [],
+    "desc": "近战等级",
+    "type": "meleeLevels"
+  },
+  "explicit.stat_707457662": {
+    "name": "",
+    "domain": [],
+    "desc": "物伤拿魔力",
+    "type": "others"
+  },
+  "explicit.stat_4067062424": {
+    "name": "",
+    "domain": [],
+    "desc": "冰点",
+    "type": "attacks"
+  },
+  "explicit.stat_1368271171": {
+    "name": "",
+    "domain": [],
+    "desc": "击杀回蓝",
+    "type": "others"
+  },
+  "explicit.stat_1573130764": {
+    "name": "",
+    "domain": [],
+    "desc": "火点",
+    "type": "attacks"
+  },
+  "explicit.stat_2797971005": {
+    "name": "",
+    "domain": [],
+    "desc": "击回",
+    "type": "others"
+  },
+  "explicit.stat_681332047": {
+    "name": "",
+    "domain": [],
+    "desc": "攻速",
+    "type": "speed"
+  },
+  "explicit.stat_2923486259": {
+    "name": "",
+    "domain": [],
+    "desc": "混抗",
+    "type": "resistance"
+  },
+  "explicit.stat_3695891184": {
+    "name": "",
+    "domain": [],
+    "desc": "杀回生命",
+    "type": "others"
+  },
+  "defense": {
+    "tiers": [150, 200],
+    "desc": "盾",
+    "explicit.stat_4015621042": {
+      "weight": 0,
+      "desc": "%盾"
+    },
+    "explicit.stat_4052037485": {
+      "weight": 0,
+      "desc": "最大盾"
+    },
+    "es": {
+      "desc": "盾",
+      "weight": 1
+    }
+  },
+  "accuracy": {
+    "tiers": [300, 450],
+    "desc": "命中",
+    "explicit.stat_803737631": {
+      "weight": 1,
+      "desc": "命中"
+    }
+  },
+  "rare": {
+    "tiers": [25],
+    "desc": "稀有度",
+    "explicit.stat_3917489142": {
+      "weight": 1,
+      "desc": "稀有度"
+    }
+  },
+  "attacks": {
+    "tiers": [30, 60, 90],
+    "desc": "攻击",
+    "explicit.stat_4067062424": {
+      "weight": 1,
+      "desc": "冰点"
+    },
+    "explicit.stat_1573130764": {
+      "weight": 1,
+      "desc": "火点"
+    },
+    "explicit.stat_3032590688": {
+      "weight": 1,
+      "desc": "物点"
+    },
+    "explicit.stat_1754445556": {
+      "weight": 1,
+      "desc": "电点"
+    }
+  },
+  "resistance": {
+    "tiers": [40, 80, 120],
+    "desc": "抗性",
+    "explicit.stat_2923486259": {
+      "weight": 2,
+      "desc": "混抗"
+    },
+    "explicit.stat_4220027924": {
+      "weight": 1,
+      "desc": "冰抗"
+    },
+    "explicit.stat_1671376347": {
+      "weight": 1,
+      "desc": "电抗"
+    },
+    "explicit.stat_3372524247": {
+      "weight": 1,
+      "desc": "火抗"
+    }
+  },
+  "speed": {
+    "tiers": [13],
+    "desc": "攻速",
+    "explicit.stat_681332047": {
+      "weight": 1,
+      "desc": "攻速"
+    }
+  },
+  "meleeLevels": {
+    "tiers": [1],
+    "desc": "近战等级",
+    "explicit.stat_9187492": {
+      "weight": 1,
+      "desc": "近战等级"
+    }
+  },
+  "crit": {
+    "tiers": [25],
+    "desc": "暴伤",
+    "explicit.stat_3556824919": {
+      "weight": 1,
+      "desc": "暴伤"
+    }
+  },
+  "mana": {
+    "tiers": [120, 150],
+    "desc": "魔力",
+    "explicit.stat_1050105434": {
+      "desc": "魔力",
+      "weight": 1
+    }
+  },
+  "life": {
+    "tiers": [100, 120],
+    "desc": "生命",
+    "explicit.stat_3299347043": {
+      "weight": 1,
+      "desc": "生命"
+    }
+  },
+  "attrs": {
+    "tiers": [25],
+    "desc": "智慧",
+    "explicit.stat_328541901": {
+      "weight": 1,
+      "desc": "智慧"
+    }
+  },
+  "others": {
+    "desc": "废词",
+    "count": 0
+  }
+}

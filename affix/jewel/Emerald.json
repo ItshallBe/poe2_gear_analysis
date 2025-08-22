@@ -1,0 +1,504 @@
+{
+    "explicit.stat_624954515": {
+        "name": "增加 (5-10)% 全域命中值",
+        "weight": "1000",
+        "affixType": "prefix",
+        "domain": [5, 10],
+        "desc": "命中"
+    },
+    "explicit.stat_169946467": {
+        "name": "使用弓類武器時增加 (5-15)% 命中值",
+        "weight": "450",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "持弓命中"
+    },
+    "explicit.stat_2843214518": {
+        "name": "增加 (5-15)% 攻擊傷害",
+        "weight": "550",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "攻击伤害"
+    },
+    "explicit.stat_1585769763": {
+        "name": "增加 (5-15)% 致盲效果",
+        "weight": "150",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "致盲效果"
+    },
+    "explicit.stat_1200678966": {
+        "name": "增加 (5-15)% 你箭袋詞綴的效果",
+        "weight": "50",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "箭袋效果"
+    },
+    "explicit.stat_627767961": {
+        "name": "當你有一個作用中的護符，傷害增加 (10-20)%",
+        "weight": "400",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "护符伤害"
+    },
+    "explicit.stat_4188894176": {
+        "name": "持弓類武器時增加 (6-16)% 傷害",
+        "weight": "750",
+        "affixType": "prefix",
+        "domain": [6, 16],
+        "desc": "持弓伤害"
+    },
+    "explicit.stat_427684353": {
+        "name": "增加 (6-16)% 十字弓傷害",
+        "weight": "700",
+        "affixType": "prefix",
+        "domain": [6, 16],
+        "desc": "十字弓伤"
+    },
+    "explicit.stat_1852872083": {
+        "name": "擊中稀有怪和傳奇怪增加 (10-20)% 傷害",
+        "weight": "400",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "金怪增伤"
+    },
+    "explicit.stat_4045894391": {
+        "name": "細杖傷害增加 (6-16)%",
+        "weight": "650",
+        "affixType": "prefix",
+        "domain": [6, 16],
+        "desc": "细杖伤害"
+    },
+    "explicit.stat_712554801": {
+        "name": "你的印記技能效果增加 (5-10)%",
+        "weight": "150",
+        "affixType": "prefix",
+        "domain": [5, 10],
+        "desc": "印记效果"
+    },
+    "explicit.stat_3141070085": {
+        "name": "增加 (5-15)% 元素傷害",
+        "weight": "450",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "元素伤"
+    },
+    "explicit.stat_2106365538": {
+        "name": "增加 (10-20)% 閃避值",
+        "weight": "1000",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "增加闪避"
+    },
+    "explicit.stat_2231156303": {
+        "name": "增加 (5-15)% 閃電傷害",
+        "weight": "900",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "电伤"
+    },
+    "explicit.stat_1303248024": {
+        "name": "你所施加之異常狀態的幅度增加 (5-15)%",
+        "weight": "200",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "异常幅度"
+    },
+    "explicit.stat_440490623": {
+        "name": "你以暴擊施加之傷害型異常狀態的幅度增加 (10-20)%",
+        "weight": "250",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "暴击异常"
+    },
+    "explicit.stat_2487305362": {
+        "name": "你所施加之中毒的幅度增加 (5-15)%",
+        "weight": "650",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "中毒幅度"
+    },
+    "explicit.stat_2527686725": {
+        "name": "你所施加之感電的幅度增加 (10-20)%",
+        "weight": "200",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "感电幅度"
+    },
+    "explicit.stat_1839076647": {
+        "name": "增加 (5-15)% 投射物傷害",
+        "weight": "1000",
+        "affixType": "prefix",
+        "domain": [5, 15],
+        "desc": "投射物伤"
+    },
+    "explicit.stat_3759663284": {
+        "name": "增加 (5-10)% 投射物速度",
+        "weight": "500",
+        "affixType": "prefix",
+        "domain": [5, 10],
+        "desc": "投射物速"
+    },
+    "explicit.stat_818778753": {
+        "name": "傷害穿透 (5-10)% 閃電抗性",
+        "weight": "800",
+        "affixType": "prefix",
+        "domain": [5, 10],
+        "desc": "电穿"
+    },
+    "explicit.stat_21071013": {
+        "name": "捷技能增加 (15-25)% 傷害",
+        "weight": "450",
+        "affixType": "prefix",
+        "domain": [15, 25],
+        "desc": "捷伤害"
+    },
+    "explicit.stat_2696027455": {
+        "name": "长锋伤害增加%",
+        "weight": "",
+        "affixType": "prefix",
+        "domain": [10, 20],
+        "desc": "矛伤害"
+    },
+
+    "explicit.stat_318953428": {
+        "name": "攻擊擊中時有 (3-7)% 機率造成致盲",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [3, 7],
+        "desc": "致盲几率"
+    },
+    "explicit.stat_2321178454": {
+        "name": "有 (10-20)% 機率穿透一個敵人",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "穿透几率"
+    },
+    "explicit.stat_795138349": {
+        "name": "擊中時 (5-10)% 機率使目標中毒",
+        "weight": "550",
+        "affixType": "suffix",
+        "domain": [5, 10],
+        "desc": "中毒几率"
+    },
+    "explicit.stat_2839066308": {
+        "name": "魔力偷取量增加 (5-15)%",
+        "weight": "600",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "魔力偷取"
+    },
+    "explicit.stat_681332047": {
+        "name": "增加 (2-4)% 攻擊速度",
+        "weight": "750",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "攻速"
+    },
+    "explicit.stat_3759735052": {
+        "name": "使用弓類武器時增加 (2-4)% 攻擊速度",
+        "weight": "550",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "持弓攻速"
+    },
+    "explicit.stat_1135928777": {
+        "name": "增加 (2-4)% 十字弓攻擊速度",
+        "weight": "650",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "十字攻速"
+    },
+    "explicit.stat_3283482523": {
+        "name": "細杖攻擊速度增加 (2-4)%",
+        "weight": "450",
+        "affixType": "suffix",
+        "domain": [2, 4],
+        "desc": "细杖攻速"
+    },
+    "explicit.stat_1772247089": {
+        "name": "造成異常狀態的機率增加 (5-15)%",
+        "weight": "150",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "异常几率"
+    },
+    "explicit.stat_293638271": {
+        "name": "增加 (10-20)% 感電機率",
+        "weight": "250",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "感电几率"
+    },
+    "explicit.stat_3585532255": {
+        "name": "增加 (5-15)% 護符充能獲取",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "护符充能"
+    },
+    "explicit.stat_1389754388": {
+        "name": "增加 (5-15)% 護符效果持續時間",
+        "weight": "550",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "护符持续"
+    },
+    "explicit.stat_1004011302": {
+        "name": "增加 (3-5)% 冷卻恢復速度",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [3, 5],
+        "desc": "冷却恢复"
+    },
+    "explicit.stat_3714003708": {
+        "name": "攻擊傷害的暴擊傷害加成增加 (10-20)%",
+        "weight": "400",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "攻击暴伤"
+    },
+    "explicit.stat_2194114101": {
+        "name": "攻擊的暴擊機率增加 (6-16)%",
+        "weight": "350",
+        "affixType": "suffix",
+        "domain": [6, 16],
+        "desc": "攻击暴击"
+    },
+    "explicit.stat_3192728503": {
+        "name": "增加 (10-20)% 十字弓裝填速度",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "十字装填"
+    },
+    "explicit.stat_1949833742": {
+        "name": "目眩累積增加 (10-20)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "目眩累积"
+    },
+    "explicit.stat_1829102168": {
+        "name": "敵人身上的傷害型異常狀態持續時間增加 (5-15)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "异常持续"
+    },
+    "explicit.stat_1062710370": {
+        "name": "敵人身上的點燃、感電和冰緩持續時間增加 (5-15)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "燃电冰持续"
+    },
+    "explicit.stat_3544800472": {
+        "name": "元素異常狀態門檻增加 (10-20)%",
+        "weight": "600",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "元素异常门槛"
+    },
+    "explicit.stat_1836676211": {
+        "name": "增加 (5-15)% 藥劑充能獲取",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "药剂充能"
+    },
+    "explicit.stat_3741323227": {
+        "name": "增加 (5-15)% 藥劑效果持續時間",
+        "weight": "500",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "药剂持续"
+    },
+    "explicit.stat_1697447343": {
+        "name": "細杖的冰凍累積增加 (10-20)%",
+        "weight": "150",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "细杖冰积"
+    },
+    "explicit.stat_4009879772": {
+        "name": "增加 (10-20)% 生命藥劑充能獲取",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "红药充能"
+    },
+    "explicit.stat_821241191": {
+        "name": "增加 (5-15)% 來自藥劑的生命恢復",
+        "weight": "750",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "红药恢复"
+    },
+    "explicit.stat_3590792340": {
+        "name": "增加 (10-20)% 魔力藥劑充能獲取",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "蓝药充能"
+    },
+    "explicit.stat_2222186378": {
+        "name": "增加 (5-15)% 來自藥劑的魔力恢復",
+        "weight": "550",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "蓝药恢复"
+    },
+    "explicit.stat_2250533757": {
+        "name": "增加 (1-2)% 移動速度",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [1, 2],
+        "desc": "移速"
+    },
+    "explicit.stat_3473929743": {
+        "name": "釘身累積增加 (10-20)%",
+        "weight": "350",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "釘身累積"
+    },
+    "explicit.stat_2011656677": {
+        "name": "增加 (5-15)% 中毒持續時間",
+        "weight": "350",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "中毒持续"
+    },
+    "explicit.stat_3668351662": {
+        "name": "感電持續時間增加 (15-25)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [15, 25],
+        "desc": "感电持续"
+    },
+    "explicit.stat_1405298142": {
+        "name": "若你近期未遭暈眩，暈眩門檻增加 (15-25)%",
+        "weight": "300",
+        "affixType": "suffix",
+        "domain": [15, 25],
+        "desc": "晕门槛"
+    },
+    "explicit.stat_924253255": {
+        "name": "減益效果對你的緩速程度減少 (5-10)%",
+        "weight": "150",
+        "affixType": "suffix",
+        "domain": [5, 10],
+        "desc": "减益减少"
+    },
+    "explicit.stat_1011760251": {
+        "name": "+(1-2)% 最大閃電抗性",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [1, 2],
+        "desc": "最大电抗"
+    },
+    "explicit.stat_538241406": {
+        "name": "傷害型異常狀態造成傷害加速 (3-7)%",
+        "weight": "50",
+        "affixType": "suffix",
+        "domain": [3, 7],
+        "desc": "异常加速"
+    },
+    "explicit.stat_1238227257": {
+        "name": "加速減益效果失效 (5-15)%",
+        "weight": "200",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "加速减益失效"
+    },
+    "explicit.stat_4189061307": {
+        "name": "印記技能增加 (5-15)% 施放速度",
+        "weight": "350",
+        "affixType": "suffix",
+        "domain": [5, 15],
+        "desc": "印记速度"
+    },
+    "explicit.stat_2594634307": {
+        "name": "印記技能增加 (18-32)% 技能效果持續時間",
+        "weight": "400",
+        "affixType": "suffix",
+        "domain": [18, 32],
+        "desc": "印记持续"
+    },
+    "explicit.stat_3003542304": {
+        "name": "投射物分裂時有 (10-20)% 機率有 1 個額外投射物",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [10, 20],
+        "desc": "投射物分裂"
+    },
+    "explicit.stat_4081947835": {
+        "name": "投射物有 (3-7)% 機率從地形額外連鎖一次",
+        "weight": "100",
+        "affixType": "suffix",
+        "domain": [3, 7],
+        "desc": "投射物连锁"
+    },
+    "explicit.stat_2456523742": {
+        "name": "长锋暴击伤害",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "矛爆伤"
+    },
+    "explicit.stat_3028809864": {
+        "name": "近战伤害增加若8秒内造成过投射物攻击",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "近战伤害"
+    },
+    "explicit.stat_1165163804": {
+        "name": "长锋攻速",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "持矛攻速"
+    },
+    "explicit.stat_1569159338": {
+        "name": "招架伤害",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "招架伤害"
+    },
+    "explicit.stat_1697951953": {
+        "name": "危险伤害",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "危险伤害"
+    },
+    "explicit.stat_1805182458": {
+        "name": "盟友生命",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "盟友生命"
+    },
+    "explicit.stat_234296660": {
+        "name": "盟友伤害",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "盟友伤害"
+    },
+    "explicit.stat_3596695232": {
+        "name": "近战击中投射物伤害",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "近战投射物伤"
+    },
+    "explicit.stat_3401186585": {
+        "name": "招架减益持续",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "招架减益持续"
+    },
+    "explicit.stat_1911237468": {
+        "name": "招架晕眩门槛",
+        "weight": "",
+        "affixType": "suffix",
+        "desc": "招架晕眩门槛"
+    }
+}
