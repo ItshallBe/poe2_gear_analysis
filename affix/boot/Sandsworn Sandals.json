@@ -109,6 +109,7 @@
   },
   "defense": {
     "tiers": [150, 250, 350],
+    "en": "es",
     "desc": "盾",
     "explicit.stat_4015621042": {
       "weight": 0,
@@ -126,6 +127,7 @@
   "resistance": {
     "tiers": [40, 80, 120],
     "desc": "抗性",
+    "en": "res",
     "explicit.stat_4220027924": {
       "weight": 1,
       "desc": "冰抗"
@@ -145,6 +147,7 @@
   },
   "attrs": {
     "tiers": [20, 30],
+    "en": "attrs",
     "desc": "智慧",
     "explicit.stat_328541901": {
       "weight": 1,
@@ -153,6 +156,7 @@
   },
   "speed": {
     "tiers": [25, 30],
+    "en": "speed",
     "explicit.stat_2250533757": {
       "desc": "移速",
       "weight": 1
@@ -161,6 +165,7 @@
   },
   "rarity": {
     "tiers": [20, 25],
+    "en": "rarity",
     "explicit.stat_3917489142": {
       "weight": 1,
       "desc": "稀有度"
@@ -170,6 +175,7 @@
   "mana": {
     "tiers": [120, 150],
     "desc": "魔力",
+    "en": "mana",
     "explicit.stat_1050105434": {
       "weight": 1,
       "desc": "魔力"
@@ -177,6 +183,7 @@
   },
   "others": {
     "desc": "废词",
+    "en": "others",
     "count": 0
   }
 }

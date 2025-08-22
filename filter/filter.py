@@ -54,24 +54,24 @@ def filter_by_rarity(data):
 def filter_by_corrupted(data):
     pass
 
-def filter_by_price(data, type, rarity, interval):
+def filter_by_price(data, type, rarity, interval, en=False):
     price_obj = {}
     if type == 'jewel':
-        price_obj = filter_jewel_by_price(data, type, rarity, interval)
+        price_obj = filter_jewel_by_price(data, type, rarity, interval, en)
     elif type == 'ring':
-        price_obj = filter_rings_by_price(data, type, rarity, interval)
+        price_obj = filter_rings_by_price(data, type, rarity, interval, en)
     elif type == 'bow':
-        price_obj = filter_bow_by_price(data, type, rarity, interval)
+        price_obj = filter_bow_by_price(data, type, rarity, interval, en)
     elif type == 'helmet':
-        price_obj = filter_helmet_by_price(data, type, rarity, interval)
+        price_obj = filter_helmet_by_price(data, type, rarity, interval, en)
     elif type == 'boot':
-        price_obj = filter_boot_by_price(data, type, rarity, interval)
+        price_obj = filter_boot_by_price(data, type, rarity, interval, en)
     elif type == 'armour':
-        price_obj = filter_armour_by_price(data, type, rarity, interval)
+        price_obj = filter_armour_by_price(data, type, rarity, interval, en)
     elif type == 'amulet':
-        price_obj = filter_amulet_by_price(data, type, rarity, interval)
+        price_obj = filter_amulet_by_price(data, type, rarity, interval, en)
     elif type == 'spear':
-        price_obj = filter_spear_by_price(data, type, rarity, interval)
+        price_obj = filter_spear_by_price(data, type, rarity, interval, en)
     elif type == 'glove':
-        price_obj = filter_glove_by_price(data, type, rarity, interval)
+        price_obj = filter_glove_by_price(data, type, rarity, interval, en)
     return price_obj

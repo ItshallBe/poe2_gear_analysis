@@ -116,6 +116,7 @@
   "attacks": {
     "tiers": [200, 300, 400],
     "desc": "DPS",
+    "en": "dps",
     "explicit.stat_210067635": {
       "weight": 0,
       "desc": "攻速"
@@ -148,6 +149,7 @@
   "critical": {
     "tiers": [30, 60],
     "desc": "暴击",
+    "en": "crit",
     "explicit.stat_518292764": {
       "weight": 8,
       "desc": "暴击率"
@@ -160,6 +162,7 @@
   "elemental": {
     "tiers": [40, 80],
     "desc": "元素",
+    "en": "%inc element",
     "explicit.stat_387439868": {
       "weight": 1,
       "desc": "元素伤"
@@ -167,6 +170,7 @@
   },
   "mana": {
     "desc": "击杀回蓝",
+    "en": "mana by kill",
     "tiers": [10, 20],
     "explicit.stat_1368271171": {
       "weight": 1,
@@ -175,6 +179,7 @@
   },
   "accuracy": {
     "desc": "命中",
+    "en": "accuracy",
     "tiers": [250, 400],
     "explicit.stat_691932474": {
       "weight": 1,
@@ -183,6 +188,7 @@
   },
   "projectileLevel": {
     "desc": "技能等级",
+    "en": "projectile lvl",
     "tiers": [3, 4],
     "explicit.stat_1202301673": {
       "weight": 1,
@@ -191,6 +197,7 @@
   },
   "extraProjectiles": {
     "desc": "额外箭",
+    "en": "extra arrows",
     "tiers": [1],
     "explicit.stat_3885405204": {
       "weight": 1,
@@ -199,6 +206,7 @@
   },
   "others": {
     "desc": "废词",
+    "en": "others",
     "count": 0
   }
 }

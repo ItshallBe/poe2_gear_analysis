@@ -26,12 +26,13 @@ if __name__ == "__main__":
         item = item_list[0]
         item_sub = item_list[1]
         desc = item_list[2]
-        # 统计价位间隔
-        # 是否查询历史
-        interval = 5
-        history = 0
+        en = True # Eng diagrams
+        interval = 5 # Price Range
+        history = 0 # query history
+        if en:
+            desc = item_list[1]
         unit = "divine"
-        price_obj = process_item(item, item_sub, start_date, end_date, interval, history, unit)
+        price_obj = process_item(item, item_sub, start_date, end_date, interval, history, unit, en)
         print(price_obj)
 
         # # # 柱状图

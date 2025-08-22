@@ -200,6 +200,7 @@
   "rarity": {
     "tiers": [30, 45],
     "desc": "稀有度",
+    "en": "rarity",
     "explicit.stat_3917489142": {
       "weight": 1,
       "desc": "稀有度"
@@ -208,6 +209,7 @@
   "es": {
     "tiers": [40, 60],
     "desc": "盾",
+    "en": "es",
     "explicit.stat_2482852589": {
       "weight": 1,
       "desc": "%盾"
@@ -224,6 +226,7 @@
   "resistance": {
     "tiers": [40, 80, 120],
     "desc": "抗性",
+    "en": "res",
     "explicit.stat_4220027924": {
       "desc": "冰抗",
       "weight": 1
@@ -248,6 +251,7 @@
   "evasion": {
     "tiers": [40, 60],
     "desc": "闪避",
+    "en": "ev",
     "explicit.stat_2106365538": {
       "weight": 1,
       "desc": "%闪避"
@@ -256,6 +260,7 @@
   "armour": {
     "desc": "护甲",
     "tiers": [40, 60],
+    "en": "armour",
     "explicit.stat_2866361420": {
       "weight": 1,
       "desc": "%护甲"
@@ -264,6 +269,7 @@
   "mana": {
     "tiers": [100, 200, 300],
     "desc": "魔力",
+    "en": "mana",
     "explicit.stat_789117908": {
       "desc": "魔回",
       "weight": 0.5
@@ -280,6 +286,7 @@
   "life": {
     "tiers": [120, 200],
     "desc": "生命",
+    "en": "life",
     "explicit.stat_983749596": {
       "weight": 15,
       "desc": "%生命"
@@ -300,6 +307,7 @@
   "attrs": {
     "tiers": [30, 60],
     "desc": "属性",
+    "en": "attrs",
     "explicit.stat_3261801346": {
       "desc": "敏捷",
       "weight": 1
@@ -320,6 +328,7 @@
   "minions": {
     "tiers": [1, 2],
     "desc": "召唤等级",
+    "en": "minion lvl",
     "explicit.stat_2162097452": {
       "weight": 1,
       "desc": "召唤等级"
@@ -328,6 +337,7 @@
   "fcr": {
     "tiers": [20],
     "desc": "施法速度",
+    "en": "cast",
     "explicit.stat_2891184298": {
       "weight": 1,
       "desc": "施法速度"
@@ -336,6 +346,7 @@
   "crit": {
     "tiers": [30, 60],
     "desc": "暴击",
+    "en": "crit",
     "explicit.stat_3556824919": {
       "weight": 1,
       "desc": "爆伤"
@@ -348,6 +359,7 @@
   "meleeSkills": {
     "tiers": [1, 2],
     "desc": "近战等级",
+    "en": "melee lvl",
     "explicit.stat_9187492": {
       "weight": 1,
       "desc": "近战等级"
@@ -356,6 +368,7 @@
   "spellSkills": {
     "tiers": [1, 2],
     "desc": "法术等级",
+    "en": "spell lvl",
     "explicit.stat_124131830": {
       "weight": 1,
       "desc": "法术等级"
@@ -364,6 +377,7 @@
   "projectSkills": {
     "tiers": [1, 2],
     "desc": "投射等级",
+    "en": "projectile lvl",
     "explicit.stat_1202301673": {
       "weight": 1,
       "desc": "投射等级"
@@ -372,6 +386,7 @@
   "inc": {
     "tiers": [25],
     "desc": "法伤",
+    "en": "%inc spell",
     "explicit.stat_2974417149": {
       "weight": 1,
       "desc": "法伤"

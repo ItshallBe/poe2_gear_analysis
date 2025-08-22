@@ -1,6 +1,6 @@
 from utils import util
 
-def filter_glove_by_price(data, type, rarity, interval):
+def filter_glove_by_price(data, type, rarity, interval, en=False):
     price_obj = {}
     price_array = util.get_price_array(interval)
     util.init_price_obj(price_array, price_obj)
@@ -34,7 +34,7 @@ def filter_glove_by_price(data, type, rarity, interval):
                         union_mods['defense']["value"] = prop
                     else:
                         union_mods['defense'] = {"value": prop}
-                    mods_arry = util.merge_affix(union_mods, item, rarity, price_obj, price_idx, name, type)
+                    mods_arry = util.merge_affix(union_mods, item, rarity, price_obj, price_idx, name, type, en)
                     # 合并后组合词缀处理
                     mods_arry.sort()
                     key = ','.join(mods_arry)

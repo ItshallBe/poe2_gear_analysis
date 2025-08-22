@@ -57,9 +57,12 @@ def inc_price_obj_pair_affix(key, price_obj, price_idx, name):
     else:
         price_obj[price_idx][name]["pairs"][key] = {"count": 1}
 
-def affix_name(item, mod_id, rarity, type):
+def affix_name(item, mod_id, rarity, type, en=False):
     affix_item = affix_obj(item, mod_id, rarity, type)
-    return affix_item['desc']
+    if en == True:
+        return affix_item['en']
+    else:
+        return affix_item['desc']
 
 def affix_obj(item, mod_id, rarity, type):
     file_name = ''
@@ -108,11 +111,14 @@ def proc_affix(union_mods, item, mod_id, rarity, avg_value, type):
         else:
             union_mods['others']["count"] += 1
 
-def merge_affix(union_mods, item, rarity, price_obj, price_idx, name, type):
+def merge_affix(union_mods, item, rarity, price_obj, price_idx, name, type, en=False):
     mods_arry = []
     for key in union_mods:
         mod_type_obj = affix_obj(item, key, rarity, type)
-        desc = mod_type_obj['desc']
+        if en:
+            desc = mod_type_obj['en']
+        else:
+            desc = mod_type_obj['desc']
         if key == 'others':
             # 废词缀处理
             count = union_mods[key]['count']

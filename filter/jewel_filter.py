@@ -1,6 +1,6 @@
 from utils import util
 
-def filter_jewel_by_price(data, type, rarity, interval):
+def filter_jewel_by_price(data, type, rarity, interval, en=False):
     # 戒指词缀没有等阶，所以要特殊处理
     price_obj = {}
     price_array = util.get_price_array(interval)
@@ -21,7 +21,7 @@ def filter_jewel_by_price(data, type, rarity, interval):
                 for explicit_mod_arry in mods["explicit"]:
                     mod_id = explicit_mod_arry[0]
                     # 单词缀数目统计
-                    mod_desc = util.affix_name(item, mod_id, rarity, type)
+                    mod_desc = util.affix_name(item, mod_id, rarity, type, en)
                     util.inc_price_obj_one_affix(mod_desc, price_obj, price_idx, name)
                     mods_arry.append(mod_desc)
             else:

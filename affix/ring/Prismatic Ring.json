@@ -175,6 +175,7 @@
   },
   "attr": {
     "tiers": [30, 60, 90],
+    "en": "attrs",
     "desc": "属性",
     "explicit.stat_328541901": {
       "weight": 1,
@@ -195,6 +196,7 @@
   },
   "inc": {
     "tiers": [30, 60, 90],
+    "en": "%inc",
     "desc": "inc",
     "explicit.stat_3962278098": {
       "weight": 1,
@@ -215,6 +217,7 @@
   },
   "life": {
     "tiers": [100, 130, 160],
+    "en": "life",
     "desc": "生命",
     "explicit.stat_3299347043": {
       "weight": 1
@@ -223,6 +226,7 @@
   "mana": {
     "tiers": [180, 220, 260],
     "desc": "魔力",
+    "en": "mana",
     "explicit.stat_1050105434": {
       "weight": 1,
       "desc": "魔力"
@@ -235,6 +239,7 @@
   "accuracy": {
     "tiers": [250, 350],
     "desc": "命中",
+    "en": "accuracy",
     "explicit.stat_803737631": {
       "weight": 1,
       "desc": "命中"
@@ -243,6 +248,7 @@
   "resistance": {
     "tiers": [40, 80, 120],
     "desc": "抗性",
+    "en": "res",
     "explicit.stat_3372524247": {
       "weight": 1,
       "desc": "火抗"
@@ -267,6 +273,7 @@
   "attacks": {
     "tiers": [25, 50, 75],
     "desc": "点伤",
+    "en": "flat",
     "explicit.stat_1573130764": {
       "weight": 1,
       "desc": "火点"
@@ -287,6 +294,7 @@
   "rare": {
     "tiers": [20, 25],
     "desc": "稀有",
+    "en": "rarity",
     "explicit.stat_3917489142": {
       "weight": 1,
       "desc": "稀有度"
@@ -295,6 +303,7 @@
   "fcr": {
     "tiers": [18, 22],
     "desc": "施法",
+    "en": "cast",
     "explicit.stat_2891184298": {
       "weight": 1,
       "desc": "施法速度"
@@ -302,6 +311,7 @@
   },
   "others": {
     "desc": "废词",
+    "en": "others",
     "count": 0
   }
 }

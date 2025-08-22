@@ -92,6 +92,7 @@
   "defense": {
     "tiers": [250, 350, 450],
     "desc": "盾",
+    "en": "es",
     "explicit.stat_4015621042": {
       "weight": 0,
       "desc": "%能量护盾"
@@ -104,6 +105,7 @@
   "rarity": {
     "tiers": [30, 45],
     "desc": "稀有度",
+    "en": "rarity",
     "explicit.stat_3917489142": {
       "weight": 1,
       "desc": "稀有度"
@@ -112,6 +114,7 @@
   "resistance": {
     "tiers": [40, 90],
     "desc": "抗性",
+    "en": "res",
     "explicit.stat_4220027924": {
       "weight": 1,
       "desc": "冰抗"
@@ -132,6 +135,7 @@
   "crit": {
     "tiers": [20],
     "desc": "暴击",
+    "en": "crit",
     "explicit.stat_587431675": {
       "weight": 1,
       "desc": "暴击率"
@@ -140,6 +144,7 @@
   "minions": {
     "tiers": [1],
     "desc": "召唤等级",
+    "en": "minion lvl",
     "explicit.stat_2162097452": {
       "weight": 1,
       "desc": "召唤等级"
@@ -148,6 +153,7 @@
   "attrs": {
     "tiers": [25],
     "desc": "智慧",
+    "en": "attrs",
     "explicit.stat_328541901": {
       "weight": 1,
       "desc": "智慧"
@@ -156,6 +162,7 @@
   "mana": {
     "tiers": [100, 150],
     "desc": "魔力",
+    "en": "mana",
     "explicit.stat_1050105434": {
       "weight": 1,
       "desc": "最大魔力"
@@ -164,6 +171,7 @@
   "life": {
     "tiers": [100, 130],
     "desc": "生命",
+    "en": "life",
     "explicit.stat_3299347043": {
       "weight": 1,
       "desc": "生命"
@@ -172,6 +180,7 @@
   "accuracy": {
     "tiers": [300, 400, 500],
     "desc": "命中",
+    "en": "accuracy",
     "explicit.stat_803737631": {
       "weight": 1,
       "desc": "命中"
@@ -179,6 +188,7 @@
   },
   "others": {
     "desc": "废词",
+    "en": "others",
     "count": 0
   }
 }

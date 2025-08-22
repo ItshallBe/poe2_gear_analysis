@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 from mlxtend.frequent_patterns import apriori
 
-x_label_name = "价位区间(d)"
-def analyze_affix_popularity(equipment_data, top_n=21):
+x_label_name = "price range(d)"
+def analyze_affix_popularity(equipment_data, top_n=21, en=False):
     print("生成词缀热力图...")
     price_tiers = {}
     plt.rcParams['font.sans-serif'] = ['SimHei']
@@ -30,13 +30,13 @@ def analyze_affix_popularity(equipment_data, top_n=21):
     # 画热力图
     plt.figure(figsize=(20, 12))
     sns.heatmap(df, annot=True, cmap="YlGnBu", fmt=".0f")
-    plt.title(f"Top{top_n} 热门词缀频率",
+    plt.title(f"Top{top_n} affixes frequency",
                 fontsize=20,
                 color='#2C3E50',
                 fontweight='bold',
                 pad=25)
     plt.xlabel(x_label_name, fontsize=18, color='#2980B9', labelpad=15)
-    plt.ylabel("词缀", fontsize=18, color='#2980B9', labelpad=15)
+    plt.ylabel("affixes", fontsize=18, color='#2980B9', labelpad=15)
     plt.yticks(rotation=0)
     plt.xticks(rotation=45)
     plt.savefig('heatmap.webp', format='webp', dpi=300)
@@ -62,9 +62,9 @@ def plot_price_tier_distribution(equipment_data, desc="装备"):
     for i, value in enumerate(price_values):
         ax.text(i, value + 0.5, str(value), ha='center', fontsize=12, fontweight='bold', color="black")
 
-    plt.title(f"{desc}统计总数:{total_sum}", fontsize=14, fontweight='bold')
+    plt.title(f"{desc}:{total_sum}", fontsize=14, fontweight='bold')
     plt.xlabel(x_label_name, fontsize=12)
-    plt.ylabel("数量", fontsize=12)
+    plt.ylabel("numbers", fontsize=12)
     plt.xticks(rotation=45)
     plt.grid(axis='y', linestyle='--', alpha=0.7)  # 添加背景网格线提升可读性
     plt.savefig('histograms.webp', format='webp', dpi=300)
@@ -247,7 +247,7 @@ def plot_bubble_chart(all_rules, affix_count, chart_title, top_n=5):
                   color='#6B3E00')
 
     # 标题设置
-    ax.set_title(f"{chart_title}\n(气泡大小和颜色深浅均表示该组合在对应价格区间的出现比例)",
+    ax.set_title(f"{chart_title}\n(气泡大小和颜色深浅均表示该组合在对应价格区间的出现比例)\n(Bubble size and color intensity indicate the occurrence rate of an affix combination in its price range)",
                  fontsize=14,
                  pad=20,
                  color='#8B2500',  # 深红色标题
@@ -268,7 +268,7 @@ def plot_bubble_chart(all_rules, affix_count, chart_title, top_n=5):
     cbar = fig.colorbar(sm, ax=ax, pad=0.02)
 
     # 颜色条美化
-    cbar.set_label('区间内相对比例',
+    cbar.set_label('区间内相对比例(Relative Frequency)',
                    rotation=270,
                    labelpad=25,
                    color='#6B3E00')
@@ -286,13 +286,13 @@ def plot_bubble_chart(all_rules, affix_count, chart_title, top_n=5):
                         alpha=alpha_level,
                         edgecolors=edge_color,
                         linewidths=1.5,
-                        label=f'{s:.0%} 出现比例')
+                        label=f'{s:.0%} 出现比例(Appearance Ratio)')
             for s in legend_supports
         ]
         ax.legend(
             handles=legend_elements,
             loc='upper right',
-            title="气泡大小说明",
+            title="Bubble Size Desc",
             title_fontsize=10,
             bbox_to_anchor=(1.28, 1),
             labelcolor='#6B3E00',  # 图例文字颜色
@@ -343,7 +343,7 @@ def plot_3_affix_pairs_bubble_chart(data, top_n=3):
         all_rules_3[price_range] = (rules[rules['itemsets'].apply(lambda x: len(x) == 3)], total_combinations)
         all_rules_4[price_range] = (rules[rules['itemsets'].apply(lambda x: len(x) == 4)], total_combinations)
 
-    plot_bubble_chart(all_rules_2, 2, "2 词缀组合", top_n=3)
-    plot_bubble_chart(all_rules_3, 3, "3 词缀组合", top_n=3)
-    plot_bubble_chart(all_rules_4, 4, "4 词缀组合", top_n=3)
+    plot_bubble_chart(all_rules_2, 2, "2 affixes combo", top_n=3)
+    plot_bubble_chart(all_rules_3, 3, "3 affixes combo", top_n=3)
+    plot_bubble_chart(all_rules_4, 4, "4 affixes combo", top_n=3)
     plt.show()

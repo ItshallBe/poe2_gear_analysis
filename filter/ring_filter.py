@@ -1,6 +1,6 @@
 from utils import util
 
-def filter_rings_by_price(data, type, rarity, interval):
+def filter_rings_by_price(data, type, rarity, interval, en=False):
     price_obj = {}
     price_array = util.get_price_array(interval)
     util.init_price_obj(price_array, price_obj)
@@ -27,7 +27,7 @@ def filter_rings_by_price(data, type, rarity, interval):
                         # 处理后的词缀，分为others和其他有用词缀如attacks、mana等
                         util.proc_affix(union_mods, item, mod_id, rarity, avg_value, type)
                     # 合并后单词缀处理
-                    mods_arry = util.merge_affix(union_mods, item, rarity, price_obj, price_idx, name, type)
+                    mods_arry = util.merge_affix(union_mods, item, rarity, price_obj, price_idx, name, type, en)
                     # 合并后组合词缀处理
                     mods_arry.sort()
                     key = ','.join(mods_arry)
