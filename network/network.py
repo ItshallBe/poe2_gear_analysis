@@ -29,7 +29,7 @@ def _get_semantic_filepath(date, endDate, type, className, directory="testData")
 
     # 3. 构建文件名
     # 例如: 2023-01-01_to_2023-01-31.json
-    filename = f"{date}_to_{endDate}.json"
+    filename = f"data.json"
 
     # 4. 返回完整的文件路径
     return os.path.join(dir_path, filename)
